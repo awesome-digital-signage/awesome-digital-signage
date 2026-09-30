@@ -1,0 +1,47 @@
+name: Report a resource
+description: Report a broken, outdated, or incorrect resource
+title: "[Report]: "
+labels:
+  - broken-link
+
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: Resource
+      description: Name of the resource you are reporting.
+      placeholder: Example Product
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Link to the resource or the relevant entry.
+      placeholder: https://example.com
+    validations:
+      required: true
+
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What is the issue?
+      options:
+        - Broken link
+        - Product or project discontinued
+        - Outdated information
+        - Incorrect category
+        - Duplicate entry
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Briefly explain what should be corrected.
+      placeholder: The website is no longer available.
+    validations:
+      required: true

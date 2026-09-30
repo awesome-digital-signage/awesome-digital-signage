@@ -1,0 +1,73 @@
+name: Submit a resource
+description: Suggest a resource for Awesome Digital Signage
+title: "[Submission]: "
+labels:
+  - submission
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Official name of the product, project, or resource.
+      placeholder: Example Product
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Official website or repository URL.
+      placeholder: https://example.com
+    validations:
+      required: true
+
+  - type: input
+    id: category
+    attributes:
+      label: Suggested category
+      description: Where do you think this resource belongs?
+      placeholder: Digital Signage Platforms
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One objective sentence describing what the resource does. No marketing language.
+      placeholder: Cloud platform for managing and scheduling content across digital displays.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should it be included?
+      description: Briefly explain why this resource is useful to the digital signage ecosystem.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Are you affiliated with this resource?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checklist
+      options:
+        - label: I have searched existing entries and this is not a duplicate.
+          required: true
+        - label: The resource is active and publicly accessible.
+          required: true
+        - label: The description is factual and does not contain promotional claims.
+          required: true
+        - label: I have read the Contribution Guidelines.
+          required: true
