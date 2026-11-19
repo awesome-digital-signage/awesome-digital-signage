@@ -5,6 +5,7 @@ A curated list of resources and technologies for the digital signage ecosystem.
 ## Contents
 
 - [Digital Signage Platforms](#digital-signage-platforms)
+- [Digital Signage Tools & Resources](#digital-signage-tools--resources)
 
 ## Digital Signage Platforms
 
