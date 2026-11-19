@@ -14,6 +14,10 @@ A curated list of resources and technologies for the digital signage ecosystem.
 - [Samsung MagicINFO](https://www.samsung.com/de/business/display-solutions/magicinfo/) - On-premise digital signage platform for content management, scheduling, distribution, and remote display management.
 - [Samsung VXT](https://www.samsung.com/us/business/display-solutions/samsung-vxt/) - Cloud-based digital signage CMS for creating, scheduling, publishing, and remotely managing content and displays.
 
+## Digital Signage Tools & Resources
+
+- [IMD Signage Viewing Distance Calculator](https://imdsignage.com/tools/viewing-distance/) - A free online calculator that estimates capital-letter height based on viewing distance and compares results using two digital signage planning assumptions
+
 ## Contributing
 
 Suggestions are welcome. The preferred way to propose a new resource is through the [Submit a resource](https://github.com/awesome-digital-signage/awesome-digital-signage/issues/new?template=submit-resource.yml) issue form.
