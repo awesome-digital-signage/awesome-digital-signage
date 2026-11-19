@@ -8,6 +8,7 @@ A curated list of resources and technologies for the digital signage ecosystem.
 
 ## Digital Signage Platforms
 
+- [BuzzBlender](https://buzzblender.com/) - Low cost affordable Digital Signage Software for Samsung, Android, LG, Philips, Raspberry PI.
 - [LG SuperSign Cloud](https://www.lg.com/global/business/lg-supersign-cloud) - Cloud-based digital signage CMS for creating, distributing, scheduling, and remotely managing content across connected displays.
 - [LG SuperSign CMS](https://www.lg.com/global/business/commercial-display/software-services/lg-supersign-cms/) - On-premise digital signage CMS for content creation, scheduling, distribution, device monitoring, and centralized display management.
 - [Samsung MagicINFO](https://www.samsung.com/de/business/display-solutions/magicinfo/) - On-premise digital signage platform for content management, scheduling, distribution, and remote display management.
